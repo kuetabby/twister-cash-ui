@@ -7,7 +7,8 @@ import "./globals.css";
 
 const app_title = "Twister Cash";
 const app_name = "Twister";
-const description = "-";
+const description =
+  "Twister Cash - Redefining Your Transactions with Unmatched Security and Privacy.";
 
 export const metadata: Metadata = {
   title: app_title,

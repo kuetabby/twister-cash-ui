@@ -21,12 +21,11 @@ import {
 
 import { useIsMounted } from "@/hooks/useIsMounted";
 
-import Solidproof from "@/assets/solidproof.png";
-import Dextools from "@/assets/dextools.png";
-import Uniswap from "@/assets/uniswap.png";
+import LogoMixer from "@/assets/logo-mixer.png";
+import LogoRevenue from "@/assets/logo-revenue.png";
+import LogoAudit from "@/assets/logo-audit.png";
 
 import "./style.css";
-import { PoweredIcon } from "@/utils/Icons/powered";
 
 interface Props {}
 
@@ -153,8 +152,15 @@ const Home: React.FC<Props> = () => {
           Key Features of <span className="text-secondary">Twister Cash</span>
         </div>
         <div className="w-full flex flex-wrap justify-between mt-8">
-          <Card className="w-full md:w-3/5 text-white bg-app border border-slate-500">
-            <CardBody>
+          <Card className="w-full md:w-3/5 h-full text-white bg-app border border-slate-500">
+            <CardHeader>
+              <Image
+                src={LogoMixer}
+                alt="logo-mixer"
+                className="max-h-96 object-contain"
+              />
+            </CardHeader>
+            <CardBody className="pt-0">
               <div className="text-md xs:text-lg lg:text-xl font-bold">
                 Fortifying Transaction Privacy
               </div>
@@ -168,8 +174,15 @@ const Home: React.FC<Props> = () => {
               </div>
             </CardBody>
           </Card>
-          <Card className="w-full md:w-[35%] text-white bg-app border border-slate-500 mt-6 md:mt-0">
-            <CardBody>
+          <Card className="w-full md:w-[35%] h-full text-white bg-app border border-slate-500 mt-6 md:mt-0">
+            <CardHeader>
+              <Image
+                src={LogoAudit}
+                alt="logo-audit"
+                className="max-h-96 object-contain"
+              />
+            </CardHeader>
+            <CardBody className="pt-0">
               <div className="text-md xs:text-lg lg:text-xl font-bold">
                 Ensuring Transaction Integrity
               </div>
@@ -183,8 +196,15 @@ const Home: React.FC<Props> = () => {
             </CardBody>
           </Card>
         </div>
-        <Card className="w-full mt-6 text-white bg-app border border-slate-500">
-          <CardBody>
+        <Card className="w-full h-full mt-6 text-white bg-app border border-slate-500">
+          <CardHeader>
+            <Image
+              src={LogoRevenue}
+              alt="logo-revenue-share"
+              className="max-h-96 object-contain"
+            />
+          </CardHeader>
+          <CardBody className="pt-0">
             <div className="text-md xs:text-lg lg:text-xl font-bold">
               Empowering Community Participation
             </div>
