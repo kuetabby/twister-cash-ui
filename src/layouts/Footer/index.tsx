@@ -11,11 +11,11 @@ import { useIsMounted } from "@/hooks/useIsMounted";
 // // import DiscordLogo from "@/assets/logo-discord.png";
 // import TelegramLogo from "@/assets/logo-telegram.png";
 // import MediumLogo from "@/assets/logo-medium.png";
+import { montserrat } from "@/utils/font";
 
 import AppLogo from "@/assets/logo-app.png";
 
 import "./style.css";
-import { grotesk } from "@/utils/font";
 
 interface Props {}
 
@@ -25,7 +25,9 @@ const AppFooter: React.FC<Props> = () => {
   }
 
   return (
-    <footer className={clsx("app-footer bg-dark-primary", grotesk.className)}>
+    <footer
+      className={clsx("app-footer bg-dark-primary", montserrat.className)}
+    >
       <div className="app-footer-wrapper">
         <div className="all-reserved order-1 sm:order-0">
           <div className="app-footer-title">

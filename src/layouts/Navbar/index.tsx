@@ -9,7 +9,7 @@ import { MenuOutlined } from "@ant-design/icons";
 import PageTabs from "../PageTabs";
 import { NavbarDrawer } from "./Drawer";
 
-import { grotesk } from "@/utils/font";
+import { montserrat } from "@/utils/font";
 
 import AppLogo from "@/assets/logo-app.png";
 
@@ -17,8 +17,8 @@ import "./style.css";
 
 interface Props {}
 
-const contractAddress = "0x016c4225ae87FEC52A5230158fb9dF7f93B87921";
-const pairAddress = "0x1e053b6d2f0a578505bfd8bfe344295a9a08bbd2";
+// const contractAddress = "0x016c4225ae87FEC52A5230158fb9dF7f93B87921";
+// const pairAddress = "0x1e053b6d2f0a578505bfd8bfe344295a9a08bbd2";
 
 const Navbar: React.FC<Props> = () => {
   const {
@@ -57,7 +57,7 @@ const Navbar: React.FC<Props> = () => {
   };
 
   return (
-    <div className={clsx("navbar-container", grotesk.className)}>
+    <div className={clsx("navbar-container", montserrat.className)}>
       <div className={clsx(isScroll ? "navbar-scroll" : "navbar")}>
         <div className="w-2/5 sm:w-1/5 flex items-center relative">
           <Link href="/" className={`logo-container text-white`}>

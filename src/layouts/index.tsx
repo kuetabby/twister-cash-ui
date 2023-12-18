@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 import Provider from "@/library/Provider";
 
-import { grotesk } from "@/utils/font";
+import { montserrat } from "@/utils/font";
 
 import "./style.css";
 
@@ -17,7 +17,9 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
   return (
     <Provider>
       <Navbar />
-      <main className={clsx("base-main-container bg-app", grotesk.className)}>
+      <main
+        className={clsx("base-main-container bg-app", montserrat.className)}
+      >
         {children}
       </main>
       <Footer />
