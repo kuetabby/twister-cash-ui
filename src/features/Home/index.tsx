@@ -95,13 +95,21 @@ const Home: React.FC<Props> = () => {
             Launch dApp
           </Button>
 
-          <Button
-            className="w-32 text-white sm:ml-5"
-            colorScheme="whiteAlpha"
-            rightIcon={<ArrowRightOutlined />}
+          <Link
+            href="https://twister-cash.gitbook.io/twister-cash"
+            target="_blank"
+            rel="noopener noreferrer"
+            // className="w-auto hover:text-secondary my-2"
+            className="w-32 sm:w-36 text-white sm:ml-5"
           >
-            Whitepaper
-          </Button>
+            <Button
+              className="w-full"
+              colorScheme="whiteAlpha"
+              rightIcon={<ArrowRightOutlined />}
+            >
+              Whitepaper
+            </Button>
+          </Link>
         </div>
       </div>
 

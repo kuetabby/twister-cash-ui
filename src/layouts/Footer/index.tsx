@@ -60,7 +60,7 @@ const AppFooter: React.FC<Props> = () => {
                 dApp
               </Link>
               <Link
-                href="/"
+                href="https://twister-cash.gitbook.io/twister-cash"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-auto hover:text-secondary my-2"
@@ -82,15 +82,15 @@ const AppFooter: React.FC<Props> = () => {
             <div className="text-2xl font-bold">Socials</div>
             <div className="flex flex-col mt-4 font-semibold">
               <Link
-                href="/"
+                href="https://x.com/twistererc20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-auto hover:text-secondary"
               >
-                Twitter
+                Twitter / X
               </Link>
               <Link
-                href="/"
+                href="https://medium.com/@TwisterCash"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-auto hover:text-secondary my-2"
@@ -98,7 +98,7 @@ const AppFooter: React.FC<Props> = () => {
                 Medium
               </Link>
               <Link
-                href="/"
+                href="https://t.me/TwisterERC20"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-auto hover:text-secondary"
