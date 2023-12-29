@@ -91,9 +91,15 @@ const Home: React.FC<Props> = () => {
         </div>
 
         <div className="w-full xl:w-4/5 flex flex-wrap justify-evenly sm:justify-center mx-auto text-md xs:text-lg lg:text-xl font-bold text-slate-400 pt-2 pb-4">
-          <Button className="w-32 text-white bg-night-sky hover:bg-twilight-horizon active:bg-twilight-horizon focus:bg-twilight-horizon">
-            Launch dApp
-          </Button>
+          <Link
+            href="https://t.me/TwisterCashAI_bot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="w-32 text-white bg-night-sky hover:bg-twilight-horizon active:bg-twilight-horizon focus:bg-twilight-horizon">
+              Launch dApp
+            </Button>
+          </Link>
 
           <Link
             href="https://twister-cash.gitbook.io/twister-cash"

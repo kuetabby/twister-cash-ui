@@ -52,7 +52,7 @@ const AppFooter: React.FC<Props> = () => {
             <div className="text-2xl font-bold">Links</div>
             <div className="flex flex-col mt-4 font-semibold">
               <Link
-                href="/"
+                href="https://t.me/TwisterCashAI_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-auto hover:text-secondary"

@@ -25,8 +25,4 @@
 .nav-anchor-active {
   @apply text-white font-bold;
   @apply border-b-2 border-b-secondary;
-  /* @apply bg-night-sky font-bold;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
