@@ -24,6 +24,7 @@ import { useIsMounted } from "@/hooks/useIsMounted";
 import LogoMixer from "@/assets/logo-mixer.png";
 import LogoRevenue from "@/assets/logo-revenue.png";
 import LogoAudit from "@/assets/logo-audit.png";
+import LogoSolidproof from "@/assets/solidproof.png";
 
 import "./style.css";
 
@@ -119,45 +120,21 @@ const Home: React.FC<Props> = () => {
         </div>
       </div>
 
-      {/* <div className="h-20 lg:h-24" />
-      <div className="w-full sm:w-3/4 flex flex-wrap justify-between items-center relative px-2 mx-auto">
+      <div className="w-full xl:w-4/5 flex flex-wrap justify-evenly sm:justify-center mx-auto text-md xs:text-lg lg:text-xl font-bold text-slate-400 py-4">
+        Audited By :
         <Link
-          href={`https://app.uniswap.org/tokens/ethereum/${contractAddress}`}
+          href="https://app.solidproof.io/projects/twister-cash"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full sm:w-[30%] my-2 sm:my-0 h-16"
+          className="w-full mb-2 sm:mb-0 h-16"
         >
           <Image
-            src={Uniswap}
-            alt="uniswap"
-            className="object-contain w-full h-full"
-          />
-        </Link>
-        <Link
-          href="https://app.solidproof.io/projects/ventura"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full sm:w-[30%] mb-2 sm:mb-0 h-16"
-        >
-          <Image
-            src={Solidproof}
+            src={LogoSolidproof}
             alt="solidproof"
             className="object-contain w-full h-full"
           />
         </Link>
-        <Link
-          href={`http://dextools.io/app/ether/pair-explorer/${pairAddress}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full sm:w-[30%] my-2 sm:my-0 h-[20vw] xs:h-[15vw] sm:h-full"
-        >
-          <Image
-            src={Dextools}
-            alt="dextools"
-            className="object-contain w-full h-full"
-          />
-        </Link>
-      </div> */}
+      </div>
 
       <div id="features" className="h-20 sm:h-24" />
       <div className="w-full xl:w-4/5 mx-auto sm:px-8 lg:px-14 py-4">
@@ -277,14 +254,14 @@ const Home: React.FC<Props> = () => {
         <div className="text-lg xs:text-xl lg:text-2xl mb-2 font-semibold">
           Tokens of <span className="text-secondary">Twister Cash</span>
         </div>
-        <div className="w-full h-auto flex flex-wrap justify-center text-center items-center mt-8 lg:mt-0">
+        <div className="w-full h-auto flex flex-wrap justify-center lg:justify-between text-center items-center mt-8 lg:mt-0">
           <div className="w-full lg:w-1/2 text-xl xs:text-2xl md:text-3xl lg:text-4xl">
             <div>$TWISTER</div>
             <div className="my-6">TWISTER CASH</div>
-            <div>CA :</div>
+            <div>CA : 0xb75Fe35AfE1F0425CAA5B9A3B29A0b706A4f52Dd</div>
           </div>
           <Divider className="my-2 lg:hidden" />
-          <div className="w-full h-full flex flex-col justify-between lg:w-1/2 text-lg xs:text-xl md:text-2xl lg:text-4xl">
+          <div className="w-full h-full flex flex-col justify-between lg:w-[47.5%] text-lg xs:text-xl md:text-2xl lg:text-4xl">
             <div className="flex flex-col py-1">
               <div>100.000.000</div>
               <div className="mt-2">Total Supply</div>
@@ -317,5 +294,3 @@ const Home: React.FC<Props> = () => {
 };
 
 export default Home;
-
-// Ventura Chain, a transformative force in the digital landscape, redefines societal transactions by simplifying asset tokenization. Rooted in decentralization, transparency, and inclusivity, Ventura envisions a future where coding expertise is unnecessary for users to engage with its innovative blockchain platform
