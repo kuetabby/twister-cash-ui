@@ -19,7 +19,7 @@ import "./style.css";
 
 interface Props {}
 
-const pairAddress = "";
+const pairAddress = "0x7348ce068d089b1fCdDdedbD46acDED9C3198DcA";
 
 const AppFooter: React.FC<Props> = () => {
   if (!useIsMounted) {
@@ -70,8 +70,8 @@ const AppFooter: React.FC<Props> = () => {
                 Whitepaper
               </Link>
               <Link
-                // href={`http://dextools.io/app/ether/pair-explorer/${pairAddress}`}
-                href="/"
+                href={`http://dextools.io/app/ether/pair-explorer/${pairAddress}`}
+                // href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-auto hover:text-secondary"
