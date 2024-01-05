@@ -263,7 +263,7 @@ const Home: React.FC<Props> = () => {
           <Divider className="my-2 lg:hidden" />
           <div className="w-full h-full flex flex-col justify-between lg:w-[47.5%] text-lg xs:text-xl md:text-2xl lg:text-4xl">
             <div className="flex flex-col py-1">
-              <div>100.000.000</div>
+              <div>333.000.000</div>
               <div className="mt-2">Total Supply</div>
             </div>
             <Divider className="my-1" />
